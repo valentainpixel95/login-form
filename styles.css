@@ -119,3 +119,19 @@ body{
 .register-link p a:hover{
     text-decoration: underline;
 }
+
+@media (max-width: 480px) {
+
+    .wrapper {
+        padding: 25px 20px;
+    }
+
+    .wrapper h1 {
+        font-size: 30px;
+    }
+
+    .wrapper .remember-forgot {
+        font-size: 12px;
+    }
+
+}
